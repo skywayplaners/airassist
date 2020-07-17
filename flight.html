@@ -1,0 +1,51 @@
+<html>
+<style>
+    body {text-align:center}
+</style>
+<body style="background:url(https://img.freepik.com/free-vector/flat-design-plane-travel-background_23-2147639855.jpg?size=338&ext=jpg.jpg); background-size:100% 100%;">
+<h1>"FLIGHT DELAY PREDICTION FORM"</h1>
+<form action="http://localhost:9000/login" method="post"/>
+<p>Enter year</p>
+<p><input type="text" name="yr"/></p>
+<p>Enter month</p>
+<p><input type="text" name="mo"/></p>
+<p>Enter day of month</p>
+<p><input type="text" name="dm"/></p>
+<p>Enter day of week</p>
+<p><input type="text" name="dw"/></p>
+<p>Enter flight number</p>
+<p><input type="text" name="fn"/></p>
+<p>Enter scheduled dept time</p>
+<p><input type="text" name="sd"/></p>
+<p>Enter your actual dept time </p>
+<p><input type="text" name="ad"/></p>
+<p>Enter your scheduled arrival time </p>
+<p><input type="text" name="sa"/></p>
+<p>Enter your actual arrival time</p>
+<p><input type="text" name="aa"/></p>
+<p>Enter distance</p>
+<p><input type="text" name="di"/></p>
+<p>Enter your arrival delay</p>
+<p><input type="text" name="de"/></p>
+<label form="origin">"choose a origin"</label>
+<select name="o">
+<option value ="ATL">ATL</option>
+<option value ="DTW">DTW</option>
+<option value ="JFK">JFK</option>
+<option value ="MSP">MSP</option>
+<option value ="SEA">SEA</option>
+</select>
+<label form="destination">"choose a destination"</label>
+<select name="d">
+<option value ="SEA">SEA</option>
+<option value ="MSP">MSP</option>
+<option value ="DTW">DTW</option>
+<option value ="ATL">ATL</option>
+<option value ="JFK">JFK</option>
+</select>
+<p><input type="submit" value="submit"/></p>
+</form>
+<b>{{label}}</b>
+</body>
+</html>
+
